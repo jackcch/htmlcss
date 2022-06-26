@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #aaa;
+  padding: 30px;
+}
+
+navbar {
+  background-color: pink;
+  padding: 10px;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  border: 1px dotted black;
+}
+
+navbar a{
+  display:inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+navbar a:hover{
+  background-color: green;
+  color: white;
+}
+
+sidebar {
+  width: 25%;
+  background-color: #acc;
+  float: left;
+}
+
+
+sidebar li{
+  padding: 10px;
+}
+
+contentx {
+  width: 75%;
+  background-color: #add;
+  padding: 30px;
+  display: inline-block;
+}
+
+footer {
+  background-color: #aaa;
+  padding: 15px;
+}
+
+
+/*
+.row::after{
+  content: none;
+  display: table;
+  clear: both;
+} */

@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: lightgreen;
+  padding: 20px;
+}
+
+/* Navigation Bar Start */
+
+.navcontainer {
+  display: flex;
+  margin-top: 10px;
+  border: 1px dotted black;
+}
+
+.navbarL {
+  background-color: pink;
+  flex: 70%;
+}
+
+.navbarL ul {
+  list-style-type: none;
+  text-decoration: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.navbarL li {
+  float: left;
+}
+
+.navbarL a, .dropbtn {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 12px;
+}
+
+.navbarL a:hover {
+  background-color: green;
+  color: white;
+}
+
+/* Separate Navbar for Right Aligned options */
+
+.navbarR {
+  background-color: yellow;
+  flex: 30%
+}
+
+.navbarR ul {
+  list-style-type: none;
+  text-decoration: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.navbarR li {
+  float: right;
+}
+
+.navbarR a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 12px;
+}
+
+.navbarR li:hover {
+  color: white;
+  background-color: green;
+}
+
+/* End of Right Aligned Navbar options  */
+
+/* Dropdown list for Navigation Bar */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content a:hover{
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+
+/* Navigation Bar End */
+
+/* Main Content Start */
+
+.row {
+  border: 1px dotted black;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar {
+  flex: 30%;
+  background-color: lightyellow;
+  padding: 15px;
+  border: 1px dotted black;
+}
+
+.mainmedia {
+  flex: 70%;
+  background-color: cyan;
+  padding: 15px;
+  margin-left: 10px;
+  border: 1px dotted black;
+}
+
+/* Main Content End */
+
+footer{
+  background-color: grey;
+  padding:10px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+}
